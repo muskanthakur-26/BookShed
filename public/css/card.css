@@ -1,0 +1,36 @@
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: vertical; */
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.card {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: red;
+  margin: 5px;
+  /* padding:2px; */
+  font-size: 1rem;
+  border: 2px solid black;
+}
+.vid_frame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  /* padding: ; */
+  /* display: flex; */
+}
+.title {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black ;
+}
